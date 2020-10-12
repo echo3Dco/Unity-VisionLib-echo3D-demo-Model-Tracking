@@ -9,7 +9,7 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 * Follow the instructions on our [doumention page](https://docs.echoar.xyz/unity/adding-ar-capabilities) to [set your API key](https://docs.echoar.xyz/unity/adding-ar-capabilities#3-set-you-api-key).
 * Add the mini car model to the [console](https://docs.echoar.xyz/quickstart/add-a-3d-model) from the [Models](https://github.com/echoARxyz/Unity-ARFoundation-echoAR-demo-Living-Room-TV/tree/master/assets) folder.
 * Overwrite the existing _echoAR/CustomBehavior.cs_ script with the new [CustomBehavior](https://github.com/echoARxyz/Unity-ARFoundation-echoAR-demo-Living-Room-TV/blob/master/CustomBehavior.cs) file.
-* Set up a Model Tracking scene using [VisionLib's](https://visionlib.com/documentation/vl_unity_s_d_k_model_tracker_tutorial/) instructions, using _carEcho.vl_ and _ModelTrackingScript.cs_ in the Scripts folder instead of TutorialModelTracker.vl and Tutorial.cs.
+* Set up a Model Tracking scene using [VisionLib](https://visionlib.com/documentation/vl_unity_s_d_k_model_tracker_tutorial/)'s instructions, using _carEcho.vl_ and _ModelTrackingScript.cs_ in the Scripts folder instead of TutorialModelTracker.vl and Tutorial.cs.
 * Tag the VLCamera Object as MainCamera in your scene.
 * Print out and build VisionLib's car target to test the model tracking.
 
